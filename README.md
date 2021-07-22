@@ -9,3 +9,8 @@
 | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/KimMinju.jpeg"/> | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/KimSiyeon.jpeg"/> | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/ParkHyunah.jpeg"/> | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/LeeSeojung.jpeg"/> |
 |                                                                                                    |                                                                                                     |                                                                                                      |                                                                                                      |
 
+## 프론트엔드 팀원 소개
+
+|               [이해린](https://github.com/dazzlynnnn)         |        [이윤지](https://github.com/L-Yunji)       |        [정드림](https://github.com/dream0214)              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
+| [마이페이지], [리스트페이지], 헤더 컴포넌트, 리뷰 컴포넌트, 식당 컴포넌트 구현 | [메인페이지], 지도, 플로팅버튼 구현 |  [메인페이지] [로그인팝업], [검색결과 페이지] 구현 |
