@@ -120,7 +120,7 @@
 ## 🍌 데이터베이스 설계도(E-R diagram)
 <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/matzip-univ-db.png"/>
 
-## API 명세서
+## 🍉 API 명세서
 ### [🔗 Link](https://www.notion.so/API-bd2954deae834891889daaf5085d8853)
 
 
