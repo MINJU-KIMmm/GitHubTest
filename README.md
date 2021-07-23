@@ -15,6 +15,7 @@
 | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/LeeHaerin.jpeg"/> | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/LeeYunji.jpeg"/> | <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/JungDream.jpeg"/> |
 | [마이페이지], [리스트페이지], <br/>헤더 컴포넌트, 리뷰 컴포넌트, 식당 컴포넌트 구현                | [메인페이지], 지도, 플로팅버튼 구현                                                                 | [메인페이지] [로그인팝업], [검색결과 페이지] 구현                                                    |
 
+-------------------
 ## 🍊 기술 스택
 [![React](https://img.shields.io/badge/React-61DAFB?style=round-square&logo=React&logoColor=black)](https://ko.reactjs.org/)
 [![Spring](https://img.shields.io/badge/Spring-6DB33F?style=round-square&logo=Spring&logoColor=white)](https://spring.io/)
