@@ -28,7 +28,18 @@
 6. spring session jdbc
 7. spring security test
 
-## 🍋 프로젝트 구조
+## 🍊 프로젝트 구조
+
+### 설명
+1. main/java/[프로젝트명]/config ▶️ Config
+2. main/java/[프로젝트명]/domain ▶️ Entity, Repository
+3. main/java/[프로젝트명]/service ▶️ Service
+4. main/java/[프로젝트명]/web ▶️ Dto, Controller
+5. main/java/[프로젝트명]/Application.java
+6. main/resources/application.properties
+7. main/resources/static/images ▶️ 리뷰에 들어가는 이미지
+8. main/resources/static/uploads ▶️ 프로필 사진
+
 ### 폴더 
 <pre>
 <code>
@@ -106,21 +117,11 @@
 </code>
 </pre>
 
-### 설명
-1. main/java/[프로젝트명]/config ▶️ Config
-2. main/java/[프로젝트명]/domain ▶️ Entity, Repository
-3. main/java/[프로젝트명]/service ▶️ Service
-4. main/java/[프로젝트명]/web ▶️ Dto, Controller
-5. main/java/[프로젝트명]/Application.java
-6. main/resources/application.properties
-7. main/resources/static/images ▶️ 리뷰에 들어가는 이미지
-8. main/resources/static/uploads ▶️ 프로필 사진
 
-
-## 🍌 데이터베이스 설계도(E-R diagram)
+## 🍊 데이터베이스 설계도(E-R diagram)
 <img src = "https://github.com/MINJU-KIMmm/GitHubTest/blob/main/image/porkProfile/matzip-univ-db.png"/>
 
-## 🍉 API 명세서
+## 🍊 API 명세서
 ### [🔗 Link](https://www.notion.so/API-bd2954deae834891889daaf5085d8853)
 
 
