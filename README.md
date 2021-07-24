@@ -16,9 +16,23 @@
 | [마이페이지], [리스트페이지], <br/>헤더 컴포넌트, 리뷰 컴포넌트, 식당 컴포넌트 구현                | [메인페이지], 지도, 플로팅버튼 구현                                                                 | [메인페이지] [로그인팝업], [검색결과 페이지] 구현                                                    |
 
 -------------------
+## 🍊 개요
+'맛집전공'은 해당 대학가의 대학생들이 맛집에 대한 리뷰를 작성하는 대학가 맛집 커뮤니티 서비스입니다. 대학 인증을 받은 사용자는 직접 맛집 리뷰를 작성할 수 있고 그렇지 않은 사용자는 맛집 리뷰를 열람할 수 있습니다. 학교 인증을 통해 소속감과 리뷰에 대한 신뢰도를 높일 수 있고 또한 코로나로 인해 타격을 받았을 대학가 상권 부흥의 효과를 기대해볼 수 있습니다.
+## 🍊 핵심 용어
+### 사용자
+사용자(User)는 소셜로그인을 통해 회원가입을 진행하게 되며 학교 이메일 인증을 통해 리뷰 작성 권한을 부여받습니다.
+### 식당
+식당(Restaurant)은 사용자가 리뷰할 수 있는 맛집을 의미합니다. 식당에 대한 기본 정보로 위치, 오픈 시간, 전화번호, SNS 계정 등을 제공하며 사용자가 쓴 리뷰의 별점을 통해 평점이 계산됩니다. 사용자는 식당을 즐겨찾기하여 가게리스트(Folder)로 관리하게 되며 이를 통해 앞으로 가고 싶은 맛집 혹은 즐겨 가는 맛집을 한번에 모아볼 수 있습니다.
+### 메뉴
+메뉴(Menu)는 사용자가 리뷰를 작성할 때나 리뷰를 검색할 때 더욱 편리하게 접근할 수 있도록 DB화하여 제공합니다. 이때 더 많은 데이터를 구축하기 위해 메뉴가 없을 경우 사용자로부터 메뉴를 직접 입력받아 임시 메뉴에 저장되게 되며(TempMenu) 관리자의 승인 후 정식 메뉴로 등록되게 됩니다.
+### 리뷰
+리뷰(Review)는 학교인증이 완료된 사용자만 작성할 수 있으며 리뷰 좋아요 개수를 통해 오늘의 핫 리뷰로 선정되게 됩니다. 맛집 리뷰 서비스인 만큼, 맛집 리뷰의 형식에 맞도록 사진 중심으로 게시글이 노출됩니다. 또한 일반 대학교 커뮤니티의 맛집 게시판과는 다르게 리뷰 작성 양식이 제공되기 때문에 양식 파괴로 인한 리뷰 열람의 불편함을 덜어줍니다.
+
+
 ## 🍊 기술 스택
-[![React](https://img.shields.io/badge/React-61DAFB?style=round-square&logo=React&logoColor=black)](https://ko.reactjs.org/)
-[![Spring](https://img.shields.io/badge/Spring-6DB33F?style=round-square&logo=Spring&logoColor=white)](https://spring.io/)
+
+    
+[![React](https://img.shields.io/badge/React-61DAFB?style=round-square&logo=React&logoColor=black)](https://ko.reactjs.org/) [![Spring](https://img.shields.io/badge/Spring-6DB33F?style=round-square&logo=Spring&logoColor=white)](https://spring.io/) <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/>
 
 ## 🍊 라이브러리
 1. lombok
