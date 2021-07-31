@@ -60,77 +60,87 @@
 ### 폴더 
 <pre>
 <code>
-├── 🗂 java
-│   └── 🗂 com
-│       └── 🗂 matzipuniv
-│           └── 🗂 sinchon
-│               ├── 📑 Application.java
-│               ├── 🗂 config
-│               │   └── 📑 JpaConfig.java
-│               ├── 🗂 domain
-│               │   ├── 📑 Addition.java
-│               │   ├── 📑 AdditionRepository.java
-│               │   ├── 📑 BaseTimeEntity.java
-│               │   ├── 📑 Folder.java
-│               │   ├── 📑 FolderRepository.java
-│               │   ├── 📑 Image.java
-│               │   ├── 📑 ImageRepository.java
-│               │   ├── 📑 Menu.java
-│               │   ├── 📑 MenuRepository.java
-│               │   ├── 📑 Pin.java
-│               │   ├── 📑 PinRepository.java
-│               │   ├── 📑 Report.java
-│               │   ├── 📑 ReportRepository.java
-│               │   ├── 📑 Restaurant.java
-│               │   ├── 📑 RestaurantRepository.java
-│               │   ├── 📑 Review.java
-│               │   ├── 📑 ReviewRepository.java
-│               │   ├── 📑 TempMenu.java
-│               │   ├── 📑 TempMenuRepository.java
-│               │   ├── 📑 User.java
-│               │   └── 📑 UserRepository.java
-│               ├── 🗂 service
-│               │   ├── 📑 FileHandler.java
-│               │   ├── 📑 FileHandler1.java
-│               │   ├── 📑 FolderService.java
-│               │   ├── 📑 ImageService.java
-│               │   ├── 📑 MenuService.java
-│               │   ├── 📑 PinService.java
-│               │   ├── 📑 ReportService.java
-│               │   ├── 📑 RestaurantService.java
-│               │   ├── 📑 ReviewService.java
-│               │   ├── 📑 TempMenuService.java
-│               │   └── 📑 UserService.java
-│               └── 🗂 web
-│                   ├── 📑 FolderApiController.java
-│                   ├── 📑 ImageApiController.java
-│                   ├── 📑 MenuController.java
-│                   ├── 📑 PinApiController.java
-│                   ├── 📑 ReportApiController.java
-│                   ├── 📑 RestaurantApiController.java
-│                   ├── 📑 ReviewApiController.java
-│                   ├── 📑 TempMenuController.java
-│                   ├── 📑 UserApiController.java
-│                   └── 🗂 dto
-│                       ├── 📑 AdditionResponseDto.java
-│                       ├── 📑 FolderResponseDto.java
-│                       ├── 📑 FolderSaveRequestDto.java
-│                       ├── 📑 ImageResponseDto.java
-│                       ├── 📑 MenuDto.java
-│                       ├── 📑 PinResponseDto.java
-│                       ├── 📑 ReportDto.java
-│                       ├── 📑 RestaurantListResponseDto.java
-│                       ├── 📑 RestaurantResponseDto.java
-│                       ├── 📑 ReviewListResponseDto.java
-│                       ├── 📑 ReviewRequestDto.java
-│                       ├── 📑 ReviewResponseDto.java
-│                       ├── 📑 TempMenuDto.java
-│                       └── 📑 UserResponseDto.java
-└── 🗂 resources
-    ├── 📑 application.properties
-    └── 🗂 static
-        ├── 🗂 images
-        └── 🗂 uploads
+└── 🗂 main
+    ├── 🗂 java
+    │   └── 🗂 com
+    │       └── 🗂 matzipuniv
+    │           └── 🗂 sinchon
+    │               ├── 📑 Application.java
+    │               ├── 🗂 config
+    │               │   ├── 📑 CustomOAuth2UserService.java
+    │               │   ├── 📑 JpaConfig.java
+    │               │   ├── 📑 LoginUser.java
+    │               │   ├── 📑 LoginUserArgumentResolver.java
+    │               │   ├── 📑 OAuthAttributes.java
+    │               │   ├── 📑 Role.java
+    │               │   ├── 📑 SecurityConfig.java
+    │               │   ├── 📑 SessionUser.java
+    │               │   └── 📑 WebConfig.java
+    │               ├── 🗂 domain
+    │               │   ├── 📑 Addition.java
+    │               │   ├── 📑 AdditionRepository.java
+    │               │   ├── 📑 BaseTimeEntity.java
+    │               │   ├── 📑 Folder.java
+    │               │   ├── 📑 FolderRepository.java
+    │               │   ├── 📑 Image.java
+    │               │   ├── 📑 ImageRepository.java
+    │               │   ├── 📑 Menu.java
+    │               │   ├── 📑 MenuRepository.java
+    │               │   ├── 📑 Pin.java
+    │               │   ├── 📑 PinRepository.java
+    │               │   ├── 📑 Report.java
+    │               │   ├── 📑 ReportRepository.java
+    │               │   ├── 📑 Restaurant.java
+    │               │   ├── 📑 RestaurantRepository.java
+    │               │   ├── 📑 Review.java
+    │               │   ├── 📑 ReviewRepository.java
+    │               │   ├── 📑 TempMenu.java
+    │               │   ├── 📑 TempMenuRepository.java
+    │               │   ├── 📑 User.java
+    │               │   └── 📑 UserRepository.java
+    │               ├── 🗂 service
+    │               │   ├── 📑 FolderService.java
+    │               │   ├── 📑 ImageService.java
+    │               │   ├── 📑 MenuService.java
+    │               │   ├── 📑 PinService.java
+    │               │   ├── 📑 ReportService.java
+    │               │   ├── 📑 RestaurantService.java
+    │               │   ├── 📑 ReviewService.java
+    │               │   ├── 📑 S3UploaderProfile.java
+    │               │   ├── 📑 S3UploaderReview.java
+    │               │   ├── 📑 TempMenuService.java
+    │               │   └── 📑 UserService.java
+    │               └── 🗂 web
+    │                   ├── 📑 FolderApiController.java
+    │                   ├── 📑 ImageApiController.java
+    │                   ├── 📑 MenuController.java
+    │                   ├── 📑 PinApiController.java
+    │                   ├── 📑 ReportApiController.java
+    │                   ├── 📑 RestaurantApiController.java
+    │                   ├── 📑 ReviewApiController.java
+    │                   ├── 📑 TempMenuController.java
+    │                   ├── 📑 UserApiController.java
+    │                   └── 🗂 dto
+    │                       ├── 📑 AdditionResponseDto.java
+    │                       ├── 📑 FolderResponseDto.java
+    │                       ├── 📑 FolderSaveRequestDto.java
+    │                       ├── 📑 ImageResponseDto.java
+    │                       ├── 📑 MenuDto.java
+    │                       ├── 📑 PinResponseDto.java
+    │                       ├── 📑 ReportDto.java
+    │                       ├── 📑 RestaurantListResponseDto.java
+    │                       ├── 📑 RestaurantResponseDto.java
+    │                       ├── 📑 ReviewListResponseDto.java
+    │                       ├── 📑 ReviewRequestDto.java
+    │                       ├── 📑 ReviewResponseDto.java
+    │                       ├── 📑 TempMenuDto.java
+    │                       ├── 📑 UserResponseDto.java
+    │                       └── 📑 UserUpdateRequestDto.java
+    └── 🗂 resources
+        ├── 📑 application.properties
+        └── 🗂 static
+            ├── 🗂 images
+            └── 🗂 uploads
 </code>
 </pre>
 
